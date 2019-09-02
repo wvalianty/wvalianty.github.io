@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://wvalianty.github.io
+url: https://wvalianty.github.io
 date_format: "ordinal"
 title: 威廉
 subtitle: "淡泊明志"
