@@ -1,19 +1,27 @@
-- name: Software Engineer Keywords
+- name: Operation Engineer Keywords
   keywords:
-      - Java
-      - C++
+      - Kubernetes
+      - Linux
+      - KVM
+      — Jenkins
+      - Prometheus
+      - Open-Falcon
+      - Zabbix
+      - Kafka
+      - Elasticsearch
+
+- name: Database Administrator Engineer Keywords
+  keywords:
+      - Mysql
+      - Redis
+      - Mongodb
+
+- name: Development Engineer Keywords
+  keywords:
       - Python
-      - Design Patterns
+      - Flask
+      - Go
 
-- name: Mobile Developer Keywords
-  keywords:
-      - Android
-      - Reverse Engineering
-
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+# linux python kubernetes
+# 看博客的人，
+# 同行，或许有牛逼的同行，发到的人事，要体现关键点
