@@ -98,8 +98,8 @@ gitment:
     owner: wvalianty
     repo: blog-comments
     oauth:
-        client_id: 41cf7c2060943cb78c41
-        client_secret: a45b47cd9e780101cec58de77f94500ce6b912e6
+        client_id: 6565143e46f8fa599a6d 
+        client_secret: fbcc1782edf39c1fb3e4f2423ba7f9e8b357e0b1 
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: wvalianty
