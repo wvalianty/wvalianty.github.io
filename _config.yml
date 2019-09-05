@@ -98,14 +98,14 @@ gitment:
     owner: wvalianty
     repo: blog-comments
     oauth:
-        client_id: 6565143e46f8fa599a6d 
-        client_secret: fbcc1782edf39c1fb3e4f2423ba7f9e8b357e0b1 
+        client_id: 13d0710befa89964a21e 
+        client_secret: 866142fe530ca8aeaa370a83e8315cb2de292723 
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: wvalianty
     repo: blog-comments
-    clientID: 41cf7c2060943cb78c41
-    clientSecret: a45b47cd9e780101cec58de77f94500ce6b912e6
+    clientID: 13d0710befa89964a21e
+    clientSecret: 866142fe530ca8aeaa370a83e8315cb2de292723
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
