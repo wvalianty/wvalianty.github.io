@@ -39,10 +39,10 @@
     {% when 'disqus' %}
       {% if site.disqus and site.disqus.username %}
         {% assign load_disqus = true %}
-        <!-- Disqus Protection, see https://github.com/wvalianty/wvalianty.github.io/issues/2 -->
+        <!-- Disqus Protection, see https://github.com/mzlogin/mzlogin.github.io/issues/2 -->
         {% if site.disqus.username == 'wvalianty' %}
           {% assign load_disqus = false %}
-          {% if site.url contains 'wvalianty.github.io' %}
+          {% if site.url contains 'wyong.cn' %}
             {% assign load_disqus = true %}
           {% endif %}
         {% endif %}
