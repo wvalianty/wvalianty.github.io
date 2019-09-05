@@ -1,6 +1,6 @@
-# 码志
+# Blog
 
-我的个人博客：<https://wvalianty.github.io>，欢迎 Star 和 Fork。
+我的个人博客：<http://wyong.cn>，欢迎 Star 和 Fork。
 
 ## 概览
 
@@ -16,9 +16,9 @@
 
 ## 效果预览
 
-**[在线预览 &rarr;](https://wvalianty.github.io)**
+**[在线预览 &rarr;](http://wyong.cn)**
 
-![screenshot home](https://wvalianty.github.io/assets/images/screenshots/home.png)
+![screenshot home](http://wyong.cn/assets/images/screenshots/home.png)
 
 ## Fork 指南
 
@@ -30,7 +30,7 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 
 2. 修改域名。
 
-   如果你需要绑定自己的域名，那么创建 CNAME 文件，在里面填写域名即可；如果不需要绑定自己的域名，那么不需要处理。
+   如果你需要绑定自己的域名，修改 CNAME 文件；如果不需要绑定自己的域名，请删除CNAME文件。
 
 3. 修改配置。
 
@@ -50,12 +50,7 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 5. 修改「关于」页面。
 
    pages/about.md 文件内容对应网站的「关于」页面，里面的内容多为个人相关，将它们替换成你自己的信息，包括 \_data 目录下的 skills.yml 和 social.yml 文件里的数据。
-
-## 贴心提示
-
-1. 排版建议遵照一定的规范，推荐 [中文文案排版指北（简体中文版）][1]。
-
-2. 在本地预览博客效果可以参考 [Setting up your Pages site locally with Jekyll][2]。
+   
 
 ## 经验与思考
 
@@ -74,6 +69,3 @@ Fork 本项目之后，还需要做一些事情才能让你的页面「正确」
 ## 致谢
 
 本博客外观基于 [DONGChuan](https://dongchuan.github.io) 修改，感谢！
-
-[1]: https://github.com/wvalianty/chinese-copywriting-guidelines
-[2]: https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/
