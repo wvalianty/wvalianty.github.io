@@ -38,7 +38,7 @@ keywords: 软件, 推荐
   在 Cmder 下可以很方便地像在类 Unix 系统下使用 alias 功能，比如：
 
   ```sh
-  alias blog=cd /d d:\github\mzlogin.github.io
+  alias blog=cd /d d:\github\wvalianty.github.io
   ```
 
   然后就能愉快地使用 blog 命令在任意目录进入 blog 仓库的目录了。

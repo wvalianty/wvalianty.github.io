@@ -12,7 +12,7 @@ keywords: vim, markdown, toc
 
 ## 下载地址
 
-* [vim-markdown-toc](https://github.com/mzlogin/vim-markdown-toc)
+* [vim-markdown-toc](https://github.com/wvalianty/vim-markdown-toc)
 
 ## 功能
 
@@ -57,7 +57,7 @@ keywords: vim, markdown, toc
 1. 在你的 vimrc 文件中添加如下内容：
 
    ```
-   Plugin 'mzlogin/vim-markdown-toc'
+   Plugin 'wvalianty/vim-markdown-toc'
    ```
 
 2. `:so $MYVIMRC`
@@ -126,15 +126,15 @@ keywords: vim, markdown, toc
 
 ## 屏幕截图
 
-[使用本插件生成 TOC 的英文文档在线示例](https://github.com/mzlogin/chinese-copywriting-guidelines/blob/Simplified/README.en.md)
+[使用本插件生成 TOC 的英文文档在线示例](https://github.com/wvalianty/chinese-copywriting-guidelines/blob/Simplified/README.en.md)
 
-![](https://github.com/mzlogin/vim-markdown-toc/raw/master/screenshots/english.gif)
+![](https://github.com/wvalianty/vim-markdown-toc/raw/master/screenshots/english.gif)
 
-[使用本插件生成 TOC 的中文文档在线示例](https://mazhuang.org/wiki/chinese-copywriting-guidelines/)
+[使用本插件生成 TOC 的中文文档在线示例](https://wvalianty.github.io/wiki/chinese-copywriting-guidelines/)
 
-![](https://github.com/mzlogin/vim-markdown-toc/raw/master/screenshots/chinese.gif)
+![](https://github.com/wvalianty/vim-markdown-toc/raw/master/screenshots/chinese.gif)
 
 ## 参考链接
 
-* [GFM 与 Redcarpet 的不同点](https://mazhuang.org/2015/12/05/diff-between-gfm-and-redcarpet/)
+* [GFM 与 Redcarpet 的不同点](https://wvalianty.github.io/2015/12/05/diff-between-gfm-and-redcarpet/)
 * [ajorgensen/vim-markdown-toc](https://github.com/ajorgensen/vim-markdown-toc)

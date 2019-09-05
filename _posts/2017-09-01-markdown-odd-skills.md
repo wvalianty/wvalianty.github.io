@@ -37,7 +37,7 @@ keywords: Markdown, 奇技淫巧
 示例代码：
 
 ```
-<img align="right" src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png"/>
+<img align="right" src="https://raw.githubusercontent.com/wvalianty/wvalianty.github.io/master/images/posts/markdown/demo.png"/>
 
 这是一个示例图片。
 
@@ -53,7 +53,7 @@ N 与图片高度有关。
 ```
 示例效果：
 
-<img align="right" src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png"/>
+<img align="right" src="https://raw.githubusercontent.com/wvalianty/wvalianty.github.io/master/images/posts/markdown/demo.png"/>
 
 这是一个示例图片。
 
@@ -78,22 +78,22 @@ N 与图片高度有关。
 ```
 **图片默认显示效果：**
 
-![](https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png)
+![](https://raw.githubusercontent.com/wvalianty/wvalianty.github.io/master/images/posts/markdown/demo.png)
 
 **加以控制后的效果：**
 
-<div align="center"><img width="65" height="75" src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png"/></div>
+<div align="center"><img width="65" height="75" src="https://raw.githubusercontent.com/wvalianty/wvalianty.github.io/master/images/posts/markdown/demo.png"/></div>
 ```
 
 示例效果：
 
 **图片默认显示效果：**
 
-![](https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png)
+![](https://raw.githubusercontent.com/wvalianty/wvalianty.github.io/master/images/posts/markdown/demo.png)
 
 **加以控制后的效果：**
 
-<div align="center"><img width="65" height="75" src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png"/></div>
+<div align="center"><img width="65" height="75" src="https://raw.githubusercontent.com/wvalianty/wvalianty.github.io/master/images/posts/markdown/demo.png"/></div>
 
 ## 格式化表格
 
@@ -163,7 +163,7 @@ N 与图片高度有关。
 
 2. 在网页下部拷贝 URL Encoded 的内容，比如以上公式生成的是 `https://latex.codecogs.com/png.latex?%24%24x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D%24%24`；
 
-   ![](https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/latex-img.png)
+   ![](https://raw.githubusercontent.com/wvalianty/wvalianty.github.io/master/images/posts/markdown/latex-img.png)
 
 3. 在文档需要的地方使用以上 URL 贴图，比如
 
@@ -205,11 +205,11 @@ N 与图片高度有关。
 
 有时候维护一份比较长的文档，希望能够自动根据文档中的标题生成目录（Table of Contents），并且当标题有变化时自动更新目录，能减轻工作量，也不易出错。
 
-如果你使用 Vim 编辑器，那可以使用我维护的插件 [vim-markdown-toc](https://github.com/mzlogin/vim-markdown-toc) 来帮你完美地解决此事：
+如果你使用 Vim 编辑器，那可以使用我维护的插件 [vim-markdown-toc](https://github.com/wvalianty/vim-markdown-toc) 来帮你完美地解决此事：
 
-![](https://raw.githubusercontent.com/mzlogin/vim-markdown-toc/master/screenshots/english.gif)
+![](https://raw.githubusercontent.com/wvalianty/vim-markdown-toc/master/screenshots/english.gif)
 
-插件地址：<https://github.com/mzlogin/vim-markdown-toc>
+插件地址：<https://github.com/wvalianty/vim-markdown-toc>
 
 如果你使用其它编辑器，一般也能找到对应的解决方案，比如 Atom 编辑器的 [markdown-toc](https://atom.io/packages/markdown-toc) 插件，Sublime Text 的 [MarkdownTOC](https://packagecontrol.io/packages/MarkdownTOC) 插件等。
 

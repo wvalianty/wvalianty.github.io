@@ -52,7 +52,7 @@ GFM 与 Redcarpet 支持对 `#`、`##` 和 `###` 这样的标题自动生成锚�
 
 **当然，强烈建议在标题中不要使用奇怪的符号。**
 
-> 在这里做个小广告：如果你使用 Vim 编辑 Markdown，那可以试试我写的能自动生成 GFM 和 Redcarpet 这两种风格 TOC 的 Vim 插件 [vim-markdown-toc](https://github.com/mzlogin/vim-markdown-toc)。
+> 在这里做个小广告：如果你使用 Vim 编辑 Markdown，那可以试试我写的能自动生成 GFM 和 Redcarpet 这两种风格 TOC 的 Vim 插件 [vim-markdown-toc](https://github.com/wvalianty/vim-markdown-toc)。
 
 *共同点：*
 
@@ -189,7 +189,7 @@ GitHub Pages 如果能使用这个，文章一定生动不少。
 
 [1]: https://help.github.com/articles/github-flavored-markdown/
 [2]: https://github.com/vmg/redcarpet
-[3]: http://mzlog.com
+[3]: https://wvalianty.github.io
 [4]: https://github.com/vmg/redcarpet/issues/379
 [5]: https://github.com/blog/1375%0A-task-lists-in-gfm-issues-pulls-comments
 [6]: https://help.github.com/articles/writing-on-github/

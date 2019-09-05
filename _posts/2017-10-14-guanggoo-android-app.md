@@ -31,17 +31,17 @@ keywords: Android, 光谷社区
 
 源码放在 GitHub 上：
 
-<https://github.com/mzlogin/guanggoo-android>
+<https://github.com/wvalianty/guanggoo-android>
 
 部分界面截图：
 
-![](https://mazhuang.org/guanggoo-android/screenshots/topic-list.png)
+![](https://wvalianty.github.io/guanggoo-android/screenshots/topic-list.png)
 
-![](https://mazhuang.org/guanggoo-android/screenshots/topic-detail.png)
+![](https://wvalianty.github.io/guanggoo-android/screenshots/topic-detail.png)
 
-![](https://mazhuang.org/guanggoo-android/screenshots/nodes-list.png)
+![](https://wvalianty.github.io/guanggoo-android/screenshots/nodes-list.png)
 
-![](https://mazhuang.org/guanggoo-android/screenshots/drawer.png)
+![](https://wvalianty.github.io/guanggoo-android/screenshots/drawer.png)
 
 更多的功能开发、完善以及优化还在进行中，也希望看到的朋友们下载试用起来，多提建议多交流。
 
@@ -51,7 +51,7 @@ keywords: Android, 光谷社区
 
 （如果是在微信里看到这里，建议长按后复制链接到浏览器打开）
 
-<https://mazhuang.org/guanggoo-android/guanggoo-lastest.apk>
+<https://wvalianty.github.io/guanggoo-android/guanggoo-lastest.apk>
 
 百度网盘备用链接：
 
@@ -61,7 +61,7 @@ keywords: Android, 光谷社区
 
 （如果使用微信识别二维码不能开始下载，还是复制上方的链接到浏览器打开下载吧）
 
-<div align="center"><img width="192px" height="192px" src="https://mazhuang.org/guanggoo-android/qrcode.png"/></div>
+<div align="center"><img width="192px" height="192px" src="https://wvalianty.github.io/guanggoo-android/qrcode.png"/></div>
 
 ## 为什么会做这个
 
@@ -79,10 +79,10 @@ keywords: Android, 光谷社区
 
 经过几周业余时间和十一长假期间的开发，目前完成度不算特别高，但常用的功能已经基本可用了，当然还有一些功能比如注册、帖子里的外部链接打开等，我是先抛给了系统浏览器。想着只埋头自己开发也比较枯燥，决定先放出一个版本来让网友们吐吐槽，提提意见，应该能做得更好。
 
-PS: 本文非软文，也没有收取光谷社区任何好处，请光谷社区嘴炮管理员看到这里帮我开通个 VIP，我的社区 ID 是 mzlogin，:-P。
+PS: 本文非软文，也没有收取光谷社区任何好处，请光谷社区嘴炮管理员看到这里帮我开通个 VIP，我的社区 ID 是 wvalianty，:-P。
 
 ---
 
 好了，最后照例安利一下我自己的微信公众号，近期专注 Java、Android 相关的技术分享，如果你感兴趣，可以关注一下接收最新动态。
 
-<div align="center"><img width="192px" height="192px" src="https://mazhuang.org/assets/images/qrcode.jpg"/></div>
+<div align="center"><img width="192px" height="192px" src="https://wvalianty.github.io/assets/images/qrcode.jpg"/></div>

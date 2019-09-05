@@ -65,7 +65,7 @@ sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6
 添加路径到 $PATH 环境变量，修改 /etc/profile 或 ~/.profile 等皆可。
 
 ```
-export ANDROID_SDK_HOME=/home/mzlogin/android/sdk
+export ANDROID_SDK_HOME=/home/wvalianty/android/sdk
 export PATH=$ANDROID_SDK_HOME/platform-tools:$ANDROID_SDK_HOME/tools:$PATH
 ```
 
@@ -87,8 +87,8 @@ sudo apt-get install rabbitvcs-nautilus3 rabbitvcs-thunar rabbitvcs-gedit rabbit
 [Desktop Entry]
 Name=Eclipse
 Comment=Launch Eclipse
-Exec=/home/mzlogin/android/eclipse/eclipse
-Icon=/home/mzlogin/android/eclipse/icon.xpm
+Exec=/home/wvalianty/android/eclipse/eclipse
+Icon=/home/wvalianty/android/eclipse/icon.xpm
 StartupNotify=true
 Terminal=false
 Type=Application
@@ -200,12 +200,12 @@ Ubuntu 14.04 LTS 在 VirtualBox 中刚安装完时，分辨率只有 640\*480 �
 创建 ~/.ssh 目录，确认其权限为 0700，将 Windows %userprofile%/.ssh 下的 id\_rsa 和 id\_rsa.pub 文件拷贝到 ~/.ssh 目录下，权限分别改为 0600 和 0644。
 
 ```sh
-mzlogin@ubuntu:~$ ll ~/.ssh
+wvalianty@ubuntu:~$ ll ~/.ssh
 total 20
-drwx------  2 mzlogin mzlogin 4096 Jun 22 01:03 ./
-drwxr-xr-x 20 mzlogin mzlogin 4096 Jun 22 01:02 ../
--rw-------  1 mzlogin mzlogin 1679 Jun 21 05:17 id_rsa
--rw-r--r--  1 mzlogin mzlogin  399 Jun 21 05:17 id_rsa.pub
+drwx------  2 wvalianty wvalianty 4096 Jun 22 01:03 ./
+drwxr-xr-x 20 wvalianty wvalianty 4096 Jun 22 01:02 ../
+-rw-------  1 wvalianty wvalianty 1679 Jun 21 05:17 id_rsa
+-rw-r--r--  1 wvalianty wvalianty  399 Jun 21 05:17 id_rsa.pub
 ```
 
 然后

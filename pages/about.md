@@ -1,20 +1,22 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 淡泊明志
+keywords: Yong Wang, 王勇
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+我是王勇，静心做事，淡泊明志。
 
 仰慕「优雅编码的艺术」。
 
 坚信熟能生巧，努力改变人生。
 
 ## 联系
+
+* 邮箱：18513169404@163.com
 
 {% for website in site.data.social %}
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})

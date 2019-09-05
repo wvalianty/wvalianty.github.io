@@ -85,7 +85,7 @@ kramdown 的作者对列表嵌套内容的缩进规则的 [描述][0] 是：
 1. 在你的 vimrc 文件中添加如下内容：
 
    ```markdown
-   Plugin 'mzlogin/vim-kramdown-tab'
+   Plugin 'wvalianty/vim-kramdown-tab'
    ```
 
 2. `:so $MYVIMRC`
@@ -97,7 +97,7 @@ kramdown 的作者对列表嵌套内容的缩进规则的 [描述][0] 是：
 ![vim-kramdown-tab screenshot][4]
 
 [0]: https://github.com/gettalong/kramdown/issues/311#issuecomment-185040348
-[1]: https://mazhuang.org/2016/02/04/switch-to-kramdown-from-redcarpet/
-[2]: https://github.com/mzlogin/vim-kramdown-tab
+[1]: https://wvalianty.github.io/2016/02/04/switch-to-kramdown-from-redcarpet/
+[2]: https://github.com/wvalianty/vim-kramdown-tab
 [3]: http://github.com/VundleVim/Vundle.Vim
-[4]: https://raw.githubusercontent.com/mzlogin/vim-kramdown-tab/master/screenshots/test.gif
+[4]: https://raw.githubusercontent.com/wvalianty/vim-kramdown-tab/master/screenshots/test.gif

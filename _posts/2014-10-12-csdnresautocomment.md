@@ -8,7 +8,7 @@ keywords: Python, CSDN
 
 用 Python 实现自动批量打分评论指定 CSDN 账号内所有下载过待评论的资源。
 
-GitHub 仓库地址：<https://github.com/mzlogin/csdncommenter>
+GitHub 仓库地址：<https://github.com/wvalianty/csdncommenter>
 
 可通过 pip 安装运行：
 
@@ -23,7 +23,7 @@ CSDN 账号过一段时间就会累积几十个下载过但是未评论打分的
 
 对于这类模拟 HTTP 请求然后可能频繁用到页面解析和正则表达式之类的活，用 C++ 写还是有点蛋疼的，用我那半生不熟的 Python 练练手正合适。
 
-遂在 GitHub 上建了个仓库开工，地址在这里：<https://github.com/mzlogin/csdncommenter>。
+遂在 GitHub 上建了个仓库开工，地址在这里：<https://github.com/wvalianty/csdncommenter>。
 
 > Update 2016/08/10：当前 CSDN 貌似已经取消了评论返积分的规则，我看了下我的得分记录，最近一次评论得分是在 2015/11/15。
 
@@ -68,13 +68,13 @@ CSDN 账号过一段时间就会累积几十个下载过但是未评论打分的
 
 （Gist 前几天被伟大的墙封了，还是直接贴上代码吧。2014/11/5 update）
 
-（GitHub 仓库：[mzlogin/csdncommenter](https://github.com/mzlogin/csdncommenter)，现在可以通过 pip 安装使用了  `pip install csdncommenter`  然后  `csdncommenter`。2015/10/27 update）
+（GitHub 仓库：[wvalianty/csdncommenter](https://github.com/wvalianty/csdncommenter)，现在可以通过 pip 安装使用了  `pip install csdncommenter`  然后  `csdncommenter`。2015/10/27 update）
 
 ```python
 # File   : csdncommenter.py
 # Author : Zhuang Ma
 # E-mail : chumpma(at)gmail.com
-# Website: https://mazhuang.org
+# Website: https://wvalianty.github.io
 # Date   : 2016-07-26
 import requests
 from BeautifulSoup import BeautifulSoup

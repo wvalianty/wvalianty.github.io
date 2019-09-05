@@ -10,7 +10,7 @@ keywords: Mozilla
 /**
  * 文件名：Moziila 文件结构概览
  * 来  源：https://developer.mozilla.org/en/Source_code_directories_overview
- * 翻  译：mzlogin#qq.com
+ * 翻  译：wvalianty#qq.com
  * 日  期：2012 年 2 月 22 日
  *
  */

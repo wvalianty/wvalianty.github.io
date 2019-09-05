@@ -476,4 +476,4 @@ public final int startActivity(IApplicationThread caller, String callingPackage,
 [1]: http://developer.android.com/reference/android/os/Process.html#myUid()
 [2]: http://developer.android.com/reference/android/os/Process.html#myUserHandle()
 [3]: http://developer.android.com/reference/android/os/UserHandle.html
-[4]: https://github.com/mzlogin/AndroidPractices/tree/master/android-studio/AuthorityDemo
+[4]: https://github.com/wvalianty/AndroidPractices/tree/master/android-studio/AuthorityDemo

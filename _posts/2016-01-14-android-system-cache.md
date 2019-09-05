@@ -8,7 +8,7 @@ keywords: Android, Cache, Cleaner, System Cache
 
 本文记录的是我对 Android 的「系统缓存」及其扫描和清理方法的探索与理解。
 
-本文讲述内容的完整代码实例见 <https://github.com/mzlogin/CleanExpert>。
+本文讲述内容的完整代码实例见 <https://github.com/wvalianty/CleanExpert>。
 
 ## 系统缓存的定义
 
@@ -596,7 +596,7 @@ class BackgroundHandler extends Handler {
 
 5. 获取一个应用的缓存的问题解决了，获取所有应用的系统缓存也就是遍历系统已安装应用，然后挨个调用 `getPackageInfo` 的事儿了。
 
-完整的实例见 <https://github.com/mzlogin/CleanExpert>。
+完整的实例见 <https://github.com/wvalianty/CleanExpert>。
 
 ## 系统缓存的清理
 
@@ -887,7 +887,7 @@ int free_cache(int64_t free_size)
    }
    ```
 
-完整的实例见 <https://github.com/mzlogin/CleanExpert>。
+完整的实例见 <https://github.com/wvalianty/CleanExpert>。
 
 **备注：**经测试该方法在 Android 6.0 版本和部分 5.0+ 版本上已经失效，Android 源码里已经给 `freeStorageAndNotify` 方法声明添加了 `@SystemApi` 注释（开始添加了 `@PrivateApi`，后修改为 `@SystemApi`），见「[添加][1]」和「[修改][2]」两次提交，而且 ``CLEAR_APP_CACHE`` 方法的权限已经由 `dangerous` 改成了 `system|signature`，已经无法通过反射来正常调用，会产生 `java.lang.reflect.InvocationTargetException`，所以在这些版本上需要另想办法了，StackOverflow 上的一个相关讨论链接：[What's the meaning of new @SystemApi annotation, any difference from @hide?][3]。
 

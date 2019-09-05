@@ -24,7 +24,7 @@ Mozilla 自带的 Profile 支持实际上是非常给力的，看看 %appdata%/M
 
 一、编译出需要的 Lib 文件
 
-新建一个 Win32 静态 Lib 空工程，将 mozilla-release/profile/dirserviceprovider 目录下的几个 .h 和 .cpp 文件都添加进工程，将 path/to/xulrunner-10.0.2-sdk/include 添加到工程的附加包含目录，为工程添加预处理器定义 XP_WIN 和 XPCOM_GLUE 这两项。如果一切顺利的话这时候你已经可以顺利地编译出这个 lib 文件了。在 <http://download.csdn.net/detail/mzlogin/4382847> 可以下载到我的 Demo 工程，如果想编译，需要将上面所讲的 path/to/xulrunner-10.0.2-sdk/include 修改成你本机上 xulrunner sdk 的相应路径。
+新建一个 Win32 静态 Lib 空工程，将 mozilla-release/profile/dirserviceprovider 目录下的几个 .h 和 .cpp 文件都添加进工程，将 path/to/xulrunner-10.0.2-sdk/include 添加到工程的附加包含目录，为工程添加预处理器定义 XP_WIN 和 XPCOM_GLUE 这两项。如果一切顺利的话这时候你已经可以顺利地编译出这个 lib 文件了。在 <http://download.csdn.net/detail/wvalianty/4382847> 可以下载到我的 Demo 工程，如果想编译，需要将上面所讲的 path/to/xulrunner-10.0.2-sdk/include 修改成你本机上 xulrunner sdk 的相应路径。
 
 二、将 Lib 链接进自己内嵌 Gecko 的程序
 

@@ -19,7 +19,7 @@ keywords: Vim, Markdown, Outline
 
 ## 最终效果
 
-我的完整 Vim 配置托管在 GitHub，可供参考：[config-files](https://github.com/mzlogin/config-files)
+我的完整 Vim 配置托管在 GitHub，可供参考：[config-files](https://github.com/wvalianty/config-files)
 
 ![](/images/posts/vim/vim-markdown-outline.png)
 
@@ -101,7 +101,7 @@ tagbar 默认并不支持 Markdown 文件，但配置一下就好了。
 
 至此，大功告成了！
 
-根据我的这个文章没有配置成功的同学，可以参考下我的配置 <https://github.com/mzlogin/config-files> 。
+根据我的这个文章没有配置成功的同学，可以参考下我的配置 <https://github.com/wvalianty/config-files> 。
 
 ## 参考链接
 
