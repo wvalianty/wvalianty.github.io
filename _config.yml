@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://wyong.cn
+url: wyong.cn
 date_format: "ordinal"
 title: 威廉
 subtitle: "淡泊明志"
