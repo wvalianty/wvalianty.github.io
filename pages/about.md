@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: About
 description: 淡泊明志
 keywords: Yong Wang, 王勇
