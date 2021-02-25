@@ -9,54 +9,46 @@ keywords: k8s MutatingAdmissionWebhook ValidatingAdmissionWebhook
 #### 1、 控制器概念
 准入控制器是一段代码，工作在访问 apiserver 的过程中，它会在请求通过认证和授权之后、对象被持久化之前拦截到达 apiserver 服务器的请求。通过修改提交的 yaml 文件，实现了为 PVC 设置默认 storageclass、拒绝在正处于删除状态的命名空间下创建对象。
 
-动态准入控制器是两个特殊的控制器，包含验证性质的控制器和修改性质的控制器。每个控制器包含 WebhookConfiguration 和 webhook 两部分内容。它允许用户在 k8s 中 定义 ValidatingWebhookConfiguration 和 MutatingWebhookConfiguration 对象，指明所调用的 webhook 地址，然后 apiserver 在处理请求过程中，向定义的 webhook 地址发起调用，并根据调用返回的结果进行拦截、过滤。
+动态准入控制器是两个特殊的控制器，包含验证性质的控制器和修改性质的控制器。每个控制器包含 **WebhookConfiguration** 和 **webhook** 两部分内容。它允许用户在 k8s 中 定义 ValidatingWebhookConfiguration 和 MutatingWebhookConfiguration 对象，指明所调用的 webhook 地址，然后 apiserver 在处理请求过程中，向定义的 webhook 地址发起调用，并根据调用返回的结果进行拦截、过滤。
 
 修改控制器可以修改被其接受的对象，验证控制器则不行。任何一个阶段的任何控制器拒绝了该请求，则整个请求将立即被拒绝，并向终端用户返回一个错误。
+
+验证准入控制器和修改准入控制器工作位置
 ![k8s-api-request-lifecycle](http://wyong.cn/images/blog/k8s/k8s-api-request-lifecycle.png)
-#### 2、 
-#### 3、 
-#### 4、 
+
+我们可以定义自己的准入控制器，同时也需要注意有的控制器容易也给人造成困惑，当提交到 apiserver 的对象和预期的不一致，如果不知道控制器的存在，会很莫名其妙。
+#### 2、 k8s 默认控制器示例
+* AlwaysPullImages 修改每一个新创建的 Pod 的镜像拉取策略为 Always。
+
+* DefaultStorageClass 监测请求中没有配置存储类的 PersistentVolumeClaim，为其配置添加存储类。
+	
+* NodeRestriction 限制了 kubelet 可以修改的 Node 和 Pod 对象。
+
+* NamespaceLifecycle 该准入控制器禁止在一个正在被终止的 Namespace 中创建新对象，并确保 使用不存在的 Namespace 的请求被拒绝。
+
+#### 3、 查看默认启用的准入控制器
+可以在 apiserver 启动的时候指定启用哪些准入控制，但是一般情况不需要自己指定。
+
+查看默认启动了哪些准入控制器
+```sh
+kube-apiserver -h
+```
+
+## 二、 动态准入控制器
+#### 1、 定义一个 AdmissionWebhook
+```
+
+```
+#### 2、 调试利器 telepresence
+#### 3、 编写一个 webhook
 
 ##### I、
-## 五、 参考
-## 六、 FAQ
 
 
+validating
+matating
+传入返回都是什么  AdmissionReview 对象
 
-
-
-
-
-
-
-
-
-
-
-
-2、查看默认启用
-kube-apiserver -h
-
-
-3、默认控制器事例
-
-	AlwaysPullImages 修改每一个新创建的 Pod 的镜像拉取策略为 Always
-
-	DefaultStorageClass  监测没有请求任何特定存储类的 PersistentVolumeClaim 对象的创建， 并自动向其添加默认存储类。
-	
-	NodeRestriction 该准入控制器限制了 kubelet 可以修改的 Node 和 Pod 对象 
-
-	NamespaceLifecycle 该准入控制器禁止在一个正在被终止的 Namespace 中创建新对象，并确保 使用不存在的 Namespace 的请求被拒绝。
-
-
-
-4、动态准入控制器
-
-
-	设计思想启迪，运维有时间，所以代码并不次，
-
-
-同时有的控制器也给人造成困惑，发现提交到 apiserver 的对象和预期的不一致，如果不知道控制器的存在，便感到很莫名其妙。
 
 
 
@@ -94,12 +86,9 @@ kube-apiserver -h
 
 		思想借鉴，可以在配置文件定义请求检验地址，但是可能有 bug，于是有了 重点配置
 
-3、调试工具
-	telepresence
 
-4、控制器的应用
-	应用流量无损下线
-	日后题？
+
+
 
 5、控制器代码
 	hello world 版本开始，然后开始迭代
@@ -117,9 +106,17 @@ kube-apiserver -h
 
 
 
-参考
+## 五、 参考
 [官方 - 入控制器](https://kubernetes.io/zh/docs/reference/access-authn-authz/admission-controllers/#defaultstorageclass) 
+
 [官方 - 动态准入控制](https://kubernetes.io/zh/docs/reference/access-authn-authz/extensible-admission-controllers/#%E7%A1%AE%E4%BF%9D%E7%9C%8B%E5%88%B0%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%9C%80%E7%BB%88%E7%8A%B6%E6%80%81) 
+
 [代码编写参考](https://mritd.com/2020/08/19/write-a-dynamic-admission-control-webhook/)
+
+
+## 六、 FAQ
+4、控制器的应用
+	应用流量无损下线
+	日后题？
 
 

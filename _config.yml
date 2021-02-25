@@ -104,8 +104,8 @@ gitment:
 gitalk:
     owner: wvalianty
     repo: blog-comments
-    clientID: cc7e072f0b08cd650887
-    clientSecret: 46c9a3ba83bd648a56dfe2f363f907ae9c71c48b
+    clientID: 95bce925b92cd5193f10
+    clientSecret: 49977c0e0869442c0ff25604bc97a4d21695309e
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
