@@ -4,10 +4,10 @@
 baseurl:
 url: "http://wyong.cn"
 date_format: "ordinal"
-title: 威廉
+title: 升华 
 subtitle: "淡泊明志"
 description: "王勇的个人博客"
-keywords: 威廉, 王勇, wvalianty, 博客
+keywords: 升华, 王勇, wvalianty, 博客
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5

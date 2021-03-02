@@ -1,6 +1,22 @@
 ---
 layout: default
 ---
+<!-- add some music start -->
+<audio autoplay="autoplay" id="vd"><source src="https://cdn.oss.link/markdown/music_see_you_again.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
+<script>
+  function toggleSound() {
+   var music = document.getElementById("vd");//获取ID  
+   if (music.paused) { //判读是否播放  
+    music.paused = false;
+    music.play(); //没有就播放 
+   } else {
+    clearInterval(timer)
+   }
+  }
+  var timer = setInterval("toggleSound()", 1);
+</script>
+<!-- add some music end -->
+
 <section class="collection-head small geopattern" data-pattern-id="{{ page.title | truncate: 15}}">
     <div class="container">
         <div class="collection-title">
