@@ -5,7 +5,7 @@ baseurl:
 url: "http://wyong.cn"
 date_format: "ordinal"
 title: 升华 
-subtitle: "淡泊明志"
+subtitle: "格物致知"
 description: "王勇的个人博客"
 keywords: 升华, 王勇, wvalianty, 博客
 timezone: Asia/Shanghai
@@ -15,7 +15,7 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Yong Wang
+author: Wang Yong
 organization: 
 organization_url: 
 github_username: wvalianty

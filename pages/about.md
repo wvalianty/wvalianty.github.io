@@ -1,19 +1,19 @@
 ---
 layout: about
 title: About
-description: 淡泊明志
-keywords: Yong Wang, 王勇
+description: 一片冰心在玉壶
+keywords: Wang Yong, 王勇
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是王勇，静心做事，淡泊明志。
+弱水三千，只取一瓢饮，道法自然。
 
-坚信熟能生巧，努力改变人生。
+急停急起，腾云入霄，当空斩虹，见血收刀，那一夜，我也曾梦见百万雄兵。
 
 ## 联系
-
+* 微信：1015445504
 * 邮箱：18513169404@163.com
 
 {% for website in site.data.social %}
