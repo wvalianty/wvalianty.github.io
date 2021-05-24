@@ -204,3 +204,11 @@ k drain NODE01 --ignore-daemonsets --delete-local-data
 查找资料，发现```net.netfilter.nf_conntrack_tcp_timeout_established``` 相当于 ip_conntrack 模块下面的一个配置参数，维护着 iptables 的状态（NEW，ESTABLIISHED，RELATED）。
 ![ip-conntrack](http://wyong.cn/images/blog/k8s/ip_conntrack.jpeg)
 ip_conntrack 模块，主要负责追踪数据包状态。
+
+## 参考
+[telepresence github](https://github.com/telepresenceio/telepresence)  
+[kubectl-debug github](https://github.com/aylei/kubectl-debug)  
+[无状态TCP的ip_conntrack](https://blog.csdn.net/dog250/article/details/9318843)  
+[nf_conntrack连接跟踪模块](https://blog.csdn.net/u010472499/article/details/78292811)  
+[解决 nf_conntrack: table full, dropping packet 的几种思路](https://www.cnblogs.com/mydomain/archive/2013/05/19/3087153.html)  
+
