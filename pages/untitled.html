@@ -1,0 +1,25 @@
+<audio controls autoplay="autoplay" id="vd" display: none;>
+  <source src="http://wyong.cn/music/jiaRuAiYouTianYi.mp3" type="audio/mpeg">
+  Your browser does not
+  support the audio element.
+</audio>
+
+<script>
+  function toggleSound() {
+   var music = document.getElementById("vd");//获取ID  
+   console.log(music);
+   console.log(music.paused);
+   if (music.paused) { //判读是否播放  
+    music.paused = false;
+    music.play(); //没有就播放 
+   } else {
+    clearInterval(timer)
+   }
+  }
+  var timer = setInterval("toggleSound()", 1);
+</script>
+
+
+# ![dreams](http://wyong.cn/images/blog/about/songjia.jpg)
+![dream](http://wyong.cn/images/blog/about/valiant_luoxiang.jpg)
+ http://wyong.cn/music/jiaRuAiYouTianYi.mp3

@@ -1,32 +1,27 @@
 ---
 layout: about
-title: About
+title: 悟道。。。
 description: 一片冰心在玉壶
 keywords: Wang Yong, 王勇
 comments: true
 menu: 关于
 permalink: /about/
 ---
-
-弱水三千，只取一瓢饮，道法自然。
-
-急停急起，腾云入霄，当空斩虹，见血收刀，那一夜，我也曾梦见百万雄兵。
+  
+一件事干的漂亮，则可称之为聪明，  
+如果把时间拉长，还可以称其漂亮，  
+则可谓之为智慧，努力作一个智慧的人。  
 
 ## 联系
-* 微信：1015445504
-* 邮箱：18513169404@163.com
 
 {% for website in site.data.social %}
 * {{ website.sitename }}：[@{{ website.name }}]({{ website.url }})
 {% endfor %}
 
-## Skill Keywords
 
-{% for category in site.data.skills %}
-### {{ category.name }}
-<div class="btn-inline">
-{% for keyword in category.keywords %}
-<button class="btn btn-outline" type="button">{{ keyword }}</button>
-{% endfor %}
-</div>
-{% endfor %}
+* 微信：  
+
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="http://wyong.cn/images/blog/about/Wechat_me.jpeg" alt="升华" />
+
+## end
+每个人都是过往的集合，只愿我能浇铸出自己的花朵！

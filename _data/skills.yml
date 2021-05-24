@@ -1,27 +1,7 @@
-- name: Operation Engineer Keywords
+- name: Keywords
   keywords:
       - Kubernetes
-      - Linux
-      - KVM
-      - Jenkins
-      - Prometheus
-      - Open-Falcon
-      - Zabbix
-      - Kafka
-      - Elasticsearch
-
-- name: Database Administrator Engineer Keywords
-  keywords:
-      - Mysql
-      - Redis
-      - Mongodb
-
-- name: Development Engineer Keywords
-  keywords:
-      - Python
-      - Flask
-      - Go
 
 # linux python kubernetes
-# 看博客的人，
-# 同行，或许有牛逼的同行，发到的人事，要体现关键点
+# 哎，看分类吧
+
