@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: page
 title: 悟道。。。
 description: 一片冰心在玉壶
 keywords: Wang Yong, 王勇
