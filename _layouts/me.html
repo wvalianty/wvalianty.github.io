@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<!-- add some music start -->
+<!-- think more and more,<as long as you love me> is the better to fit my heart-->
+<audio autoplay="autoplay" id="vd"><source src="https://www.ytmp3.cn/down/50747.mp3" type="audio/mpeg"> Your browser does not support the audio element.</audio>
+<script>
+  function toggleSound() {
+   var music = document.getElementById("vd");//获取ID  
+   if (music.paused) { //判读是否播放  
+    music.paused = false;
+    music.play().then(_ => {console.log("music play successful!")}).catch(error => {return}); //没有就播放 
+   } else {
+    clearInterval(timer)
+   }
+  }
+  var timer = setInterval("toggleSound()", 1);
+</script> 
+<!-- add some music end -->
+
+<!-- / .banner -->
+<section class="container content">
+        <div class="columns">
+            <div class="column two-thirds" >
+                <article class="article-content markdown-body">
+                    {{ content }}
+                </article>
+                <div class="share">
+                    {% include sns-share.html %}
+                </div>
+            </div>
+        </div>
+</section>
+    <!-- /section.content -->
